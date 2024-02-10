@@ -1,0 +1,34 @@
+.formWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.form {
+  position: relative;
+}
+
+.input {
+  padding: 10px;
+  width: 345px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid wheat;
+  background-color: transparent;
+  outline: none;
+  color: wheat;
+}
+
+.btn {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.btn:focus,
+.btn:focus-visible {
+  outline: none;
+}

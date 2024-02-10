@@ -1,0 +1,55 @@
+.img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 22px;
+  padding: 8px 16px;
+  color: wheat;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .title {
+    font-size: 20px;
+  }
+}
+
+.title:hover {
+  min-width: 100%;
+  text-overflow: clip;
+
+  animation-name: marqueeLine;
+  animation-duration: 5s;
+  animation-timing-function: var(--animation);
+  animation-iteration-count: infinite;
+}
+
+.titleBox {
+  overflow: hidden;
+  max-width: 100%;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: 1px solid #6866663c;
+  border-right: 1px solid #6866663c;
+  border-left: 1px solid #6866663c;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(30%);
+  }
+
+  to {
+    transform: translateX(-20%);
+  }
+}

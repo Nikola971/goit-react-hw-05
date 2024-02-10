@@ -1,0 +1,11 @@
+.cast {
+  background-color: #363a3e;
+  padding: 20px;
+}
+
+.castList {
+  display: flex;
+  column-gap: 10px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}

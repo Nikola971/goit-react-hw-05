@@ -1,0 +1,54 @@
+.detailsImg {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  align-self: flex-start;
+}
+
+.link {
+  min-width: 100px;
+  display: block;
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+  color: #fff;
+}
+.link:focus {
+  color: wheat;
+}
+
+.active {
+  background-color: #363a3e;
+}
+
+.desc {
+  margin-bottom: 20px;
+}
+.rating {
+  margin-bottom: 20px;
+  color: wheat;
+}
+
+.addTitle {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.releaseDate {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  background-color: #353935;
+  margin-bottom: 20px;
+}
+
+.addList {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 1158px) {
+  .detailsBox {
+    display: flex;
+    gap: 90px;
+  }
+}
