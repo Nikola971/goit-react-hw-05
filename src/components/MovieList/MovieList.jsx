@@ -1,5 +1,5 @@
 import css from './MovieList.module.css';
-import { MovieItem } from './MovieItem';
+import { MovieItem } from '../MovieItem/MovieItem';
 
 export const MovieList = ({ movieList }) => {
   return (

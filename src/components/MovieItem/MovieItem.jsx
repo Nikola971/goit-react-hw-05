@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import css from './MovieItem.module.css';
-import { common } from '../js/helpers/common';
+import { common } from '../../js/helpers/common';
 
 export const MovieItem = ({ id, title, posterPath, releaseDate }) => {
   const location = useLocation();

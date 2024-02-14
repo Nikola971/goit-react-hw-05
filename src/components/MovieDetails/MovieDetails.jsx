@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 import 'react-tabs/style/react-tabs.css';
 import clsx from 'clsx';
 import css from './MovieDetails.module.css';
-import { common } from '../js/helpers/common';
+import { common } from '../../js/helpers/common';
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);

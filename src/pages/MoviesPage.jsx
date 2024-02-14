@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { SearchBar } from '../components/SearchBar';
+import { SearchBar } from '../components/SearchBar/SearchBar';
 import { Bars } from 'react-loader-spinner';
 
-import { ErrorMessage } from '../components/ErrorMessage';
-import { MovieList } from '../components/MovieList';
-import { LoadMoreBtn } from '../components/LoadMore';
+import { ErrorMessage } from '../components/Errors/ErrorMessage';
+import { MovieList } from '../components/MovieList/MovieList';
+import { LoadMoreBtn } from '../components/LoadMore/LoadMore';
 
 import { getReviewsBySearch } from '../js/helpers/api';
 

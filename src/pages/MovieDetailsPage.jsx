@@ -3,9 +3,9 @@ import { getDataById } from '../js/helpers/api';
 import { useEffect, useState, useRef } from 'react';
 import { Bars } from 'react-loader-spinner';
 
-import { BackLink } from '../components/BackLink';
-import { MovieDetails } from '../components/MovieDetails';
-import { ErrorMessage } from '../components/ErrorMessage';
+import { BackLink } from '../components/BackLink/BackLink';
+import { MovieDetails } from '../components/MovieDetails/MovieDetails';
+import { ErrorMessage } from '../components/Errors/ErrorMessage';
 
 export default function MovieDetailsPage() {
   const { movieId } = useParams();

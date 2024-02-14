@@ -3,9 +3,9 @@ import { lazy, Suspense } from 'react';
 import style from './App.module.css';
 import { Bars } from 'react-loader-spinner';
 
-import { AppBar } from './AppBar';
-import { MovieCast } from './MovieCast';
-import { MovieReviews } from './MovieReviews';
+import { AppBar } from './AppBar/AppBar';
+import { MovieCast } from './MovieCast/MovieCast';
+import { MovieReviews } from './MovieReview/MovieReviews';
 
 const HomePage = lazy(() => import('../pages/HomePage'));
 const MoviesPage = lazy(() => import('../pages/MoviesPage'));

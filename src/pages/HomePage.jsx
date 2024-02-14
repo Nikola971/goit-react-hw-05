@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
-import { MovieList } from '../components/MovieList';
+import { MovieList } from '../components/MovieList/MovieList';
 import { useState } from 'react';
 import { getData } from '../js/helpers/api';
-import { LoadMoreBtn } from '../components/LoadMore';
-import { ErrorMessage } from '../components/ErrorMessage';
+import { LoadMoreBtn } from '../components/LoadMore/LoadMore';
+import { ErrorMessage } from '../components/Errors/ErrorMessage';
 import { Bars } from 'react-loader-spinner';
 
 export default function HomePage() {

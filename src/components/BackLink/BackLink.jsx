@@ -1,6 +1,6 @@
 import { IoArrowBack } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
-import css from './BackLink.module.css';
+import css from '.';
 
 export const BackLink = ({ to, children }) => {
   return (

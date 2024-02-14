@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Bars } from 'react-loader-spinner';
 import css from './MovieCast.module.css';
-import { getCreditsById } from '../js/helpers/api';
-import { common } from '../js/helpers/common';
-import { ErrorMessage } from './ErrorMessage';
+import { getCreditsById } from '../../js/helpers/api';
+import { common } from '../../js/helpers/common';
+import { ErrorMessage } from '../Errors/ErrorMessage';
 
 export const MovieCast = () => {
   const { movieId } = useParams();
